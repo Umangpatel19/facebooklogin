@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myproject/Login.dart';
-import 'package:myproject/authentication.dart';
+import 'package:myproject/authontication/Login.dart';
+import 'package:myproject/authontication/authentication.dart';
 
 class GoogleScreen extends StatefulWidget {
   String name;
