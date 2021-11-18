@@ -1,7 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:myproject/FacebookLogin.dart';
-import 'package:myproject/Login.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
