@@ -39,13 +39,15 @@ class _MapScreenState extends State<MapScreen> {
   }
 
   disp() {
-    return GoogleMap(
-      
-      mapType: MapType.hybrid,
-      initialCameraPosition: _kGooglePlex,
-      onMapCreated: (GoogleMapController controller) {
-        _controller.complete(controller);
-      },
+    return Container(
+      height: 500,
+      child: GoogleMap(
+        mapType: MapType.hybrid,
+        initialCameraPosition: _kGooglePlex,
+        onMapCreated: (GoogleMapController controller) {
+          _controller.complete(controller);
+        },
+      ),
     );
   }
 
